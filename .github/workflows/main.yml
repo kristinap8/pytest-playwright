@@ -47,8 +47,7 @@ jobs:
           if: always()
           with:
             status: ${{ job.status }}
-           # notification_title: "{workflow} has {status_message}"
-            message_format: ${{ secrets.GH_ACTIONS_URL }}
+            message_format: "Workflow completed: ${{ job.status }}. See details at ${{ secrets.GH_ACTIONS_URL }}"
             notify_when: "success,failure"
           env:
             SLACK_WEBHOOK_URL: ${{ secrets.ACTION_MONITORING_SLACK }}
