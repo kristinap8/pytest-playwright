@@ -36,7 +36,7 @@ GitHub Actions workflow runs include a Slack notification providing the status o
    playwright install
    ```
 
-## Run tests
+## Running tests
 
 1. To run tests in the Chrome browser in headless mode using 2 workers, execute the following command:
 
@@ -70,7 +70,7 @@ GitHub Actions workflow runs include a Slack notification providing the status o
     pytest -n <number of workers>
     ```
 
-## Generate allure report:
+## Generating Allure Report:
  
 Allure reports are generated after each test run. To view the generated Allure report, execute the following command:
 
