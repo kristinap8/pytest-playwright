@@ -1,0 +1,51 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jan 09 07:02:47 GMT 2024","Tue Jan 09 07:02:51 GMT 2024","4170","tests","test_contact_us","TestContactUs","","","test_contact_us_form_submission","Verify the proper functionality of the Contact Us form, including successful submission and navigation.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:02:58 GMT 2024","Tue Jan 09 07:03:01 GMT 2024","3496","tests","test_products","TestProducts","","","test_search_product","Test searching for a product on the ALL PRODUCTS page.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:03:02 GMT 2024","Tue Jan 09 07:03:05 GMT 2024","3315","tests","test_registration","TestRegistration","","","test_registration_with_existing_email","Test the registration process by attempting to sign up a new user with an existing email.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:02:47 GMT 2024","Tue Jan 09 07:02:48 GMT 2024","953","tests","test_login","TestLogin","","","test_login_with_incorrect_credentials","Test the login process by attempting to log in with incorrect email and password.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:02:48 GMT 2024","Tue Jan 09 07:02:54 GMT 2024","5793","tests","test_logout","TestLogout","","","test_logout","Test the logout process for a logged-in user with valid credentials.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:03:06 GMT 2024","Tue Jan 09 07:03:07 GMT 2024","633","tests","test_test_cases","TestTestCases","","","test_navigation_to_test_cases","Verify successful navigation to the 'Test Cases' page from the home page.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:02:52 GMT 2024","Tue Jan 09 07:02:57 GMT 2024","5193","tests","test_login","TestLogin","","","test_login_with_valid_credentials","Test the login process with correct email and password.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:03:07 GMT 2024","Tue Jan 09 07:03:09 GMT 2024","1795","tests","test_subscription","TestSubscription","","","test_subscription","Verify the subscription functionality on the home page.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:02:55 GMT 2024","Tue Jan 09 07:02:58 GMT 2024","2853","tests","test_products","TestProducts","","","test_all_products_and_product_detail","Test the navigation to ALL PRODUCTS and the visibility of product details.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
+"passed","Tue Jan 09 07:02:59 GMT 2024","Tue Jan 09 07:03:06 GMT 2024","7451","tests","test_registration","TestRegistration","","","test_registration_with_valid_credentials","Test the registration process by signing up a new user with valid credentials.
+
+        :param test_setup: setting up the browser and page objects
+        :return: None
+        "
